@@ -1,0 +1,78 @@
+body {
+    background-color: #c1e2f1;
+}
+
+* {
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #357999;
+}
+
+button {
+    background-color: #c59cec;
+    color: antiquewhite;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    background-color: #19cc21;
+    color: #a40d08;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+input[type=reset] {
+    background-color: #0b52ea;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+select {
+    background-color: rgba(53, 121, 153, 0.87);
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+select option:hover {
+    background-color: rgba(53, 121, 153, 0.87);
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+div[contenteditable]{
+    width: 350px;
+    height: 100px;
+    border: 1px solid red;
+    overflow-y: auto;
+}
