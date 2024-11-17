@@ -1,0 +1,10 @@
+.some_lem{
+    background-color: #e18711;
+
+
+    min-height: 200px;  //  высота
+    width: 100%;
+    /*min-width: 200px;*/
+    max-width: 500px; // ширина
+}
+
