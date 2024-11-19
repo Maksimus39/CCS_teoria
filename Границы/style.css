@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(164, 13, 8);
+    gap: 50px
+}
+
+.elem {
+    height: 700px;
+    width: 700px;
+    background-color: #e18711;
+    /*border-style:  ridge;*/
+    /*border-color: #19cc21;*/
+    /*border-width: 5px;*/
+
+    /*border: 5px ridge #19cc21;*/
+
+
+    border-top: 5px ridge #19cc21;
+    border-right: 2px solid rgba(53, 121, 153, 0.87);
+    border-bottom: 9px dotted aquamarine;
+    border-left: 2px solid rgb(11, 82, 234);
+
+}
+
+.elem2 {
+    height: 400px;
+    width: 400px;
+    background-color: #dfc84d;
+    /*border-radius: 50px 50%;*/
+
+
+    /*border-top-left-radius: 50px;*/
+    /*border-top-right-radius: 50px;*/
+    /*border-bottom-left-radius: 90px;*/
+    /*border-bottom-right-radius: 200px;*/
+
+    /*border-radius: 50px 50px 90px 200px;*/
+
+    /*border-radius: 50px/100px;  // Сначала размер ширины потом*/
+
+    border-radius: 30% 70% 53% 47%/26% 46% 54% 74%;
+}
