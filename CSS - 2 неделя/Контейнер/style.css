@@ -1,0 +1,33 @@
+.section1 {
+    height: 100vh;
+    background-color: #357999;
+}
+
+.my-container {
+    max-width: 1140px;
+    width: 100%;
+    border: 1px solid #c59cec;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1140px) {
+    .my-container {
+        padding: 0 15px;
+    }
+}
+
+.wrap {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red;
+    flex-wrap: wrap;
+}
+
+.text-wrap,
+.img {
+    max-width: 500px;
+    width: 100%;
+}
