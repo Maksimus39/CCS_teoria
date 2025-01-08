@@ -1,0 +1,37 @@
+body {
+    background-color: #dceddc;
+}
+
+.sistem-font {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/
+    /*font-style: oblique;*/
+    /*font-variant: small-caps;*/
+    /*line-height: 1.2;*/
+
+    font: oblique small-caps 500 20px/1.2 Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-stretch: ultra-condensed;
+}
+
+@font-face {
+    font-family: beer-money12 ;
+    src: local("beer-money12");
+    src: url(./assets/fonts/beer-money12.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.local-font {
+    font-family: beer-money12, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.google-font {
+    font-family: "Playwrite IE Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
