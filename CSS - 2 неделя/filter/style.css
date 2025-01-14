@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    width: 1000px;
+    height: 600px;
+    background-image: url("./images/Без названия (1).jpeg");
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .2s;
+}
+
+.parent:hover {
+    /*filter: blur(10px);*/
+
+    /*filter: brightness(40%);*/
+
+    /*filter: contrast(0.2);*/
+
+    /*filter: grayscale(40%);*/
+
+    /*filter: hue-rotate(240deg);*/
+
+    /*filter: sepia(50%);*/
+
+    /*filter: blur(10px);*/
+}
+
+
+.child{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.child:hover {
+    backdrop-filter: blur(10px);
+}
