@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #525d9a;
+}
+
+.elem-transform {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccd0ea;
+
+    transition: 1s;
+}
+
+.elem-transform:hover {
+    /*transform: translate(-50%, 50%);*/
+
+    /*transform: rotate(-90deg);*/
+    /*transform-origin: center;*/
+
+    /*transform: scale(1.2);  // туду сюда можно играть размером*/
+
+    /*transform: skewY(-45deg); // виды трансформаций можно перечислять через пробел*/
+
+    transform: matrix(1.5, 2.0, 1.5, 0.8, 50, 150);
+    /*scale - skew - skewX - scaleY - translateX - translateY*/
+}
+
+.elem {
+    width: 350px;
+    height: 350px;
+    background-color: #ed9292;
+}
