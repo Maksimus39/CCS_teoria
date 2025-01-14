@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -13,9 +13,30 @@ body{
 }
 
 
-.box{
-    height: 400px;
-    width: 400px;
-    border: 4px solid silver;
-    background-image: linear-gradient(36deg, #0b52ea 40%, #e18711 60%); // to right - это направление
+.box {
+    height: 700px;
+    width: 700px;
+    /*border: 8px solid;*/
+    text-transform: uppercase;
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: flex-end;*/
+
+    /*    Градиент границ*/
+    /*background-image: linear-gradient(36deg, #0b52ea 40%, #e18711 60%, #d61147 41%); // to right - это направление*/
+
+    /*background-image: radial-gradient(circle closest-corner at 50px 100px , #ddaf32, #0b52ea);       // размеры в пикселях и всех единицах измерения*/
+
+
+    /*background-image: repeating-radial-gradient(circle, #357999, #357999 10px, #daa45d 20px, #daa45d 20px)*/
+
+    /*border-image:repeating-linear-gradient(120deg, #ecbe7e, #ea577e)1;*/
+
+
+    /*    Градиент текста*/
+
+    background-image: linear-gradient(130deg, #a40d08, #0b52ea);
+    color: transparent;
+    -webkit-background-clip: text;
 }
