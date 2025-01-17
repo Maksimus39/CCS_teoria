@@ -17,7 +17,7 @@ body {
 .parent{
     width: 1000px;
     height: 600px;
-    background-image: url("./images/Без названия (1).jpeg");
+    background-image: url("../Псевдоэлементы/assets/1.jpeg");
     background-size: cover;
 
     display: flex;
