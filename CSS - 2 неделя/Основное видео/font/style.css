@@ -17,7 +17,7 @@ body {
 @font-face {
     font-family: beer-money12 ;
     src: local("beer-money12");
-    src: url(./assets/fonts/beer-money12.ttf) format("truetype");
+    src: url(assets/fonts/beer-money12.ttf) format("truetype");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
