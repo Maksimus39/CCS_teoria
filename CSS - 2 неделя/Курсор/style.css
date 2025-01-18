@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+button {
+    /*cursor: not-allowed;*/
+
+    /*cursor: grab*/
+
+    cursor: url(assets/images/vv5v4mh3oy9f_64.png),pointer;
+}
+
+/*button:active {*/
+/*    cursor: grabbing;*/
+/*}*/
