@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    background-color: #357999;
+    padding: 20px;
+}
+
+.element {
+    height: 200px;
+    width: 200px;
+    background-color: #19cc21;
+
+    /*------------------------*/
+
+    /*animation-name: square;*/
+    /*animation-duration: 4s;*/
+
+    /*animation-timing-function: cubic-bezier(0.37, -0.47, 1, -0.36);*/
+
+    /*animation-delay: 1s;*/
+
+    /*animation-iteration-count: 2;*/
+
+    /*animation-direction: alternate;*/
+
+    /*animation-fill-mode: forwards;*/
+
+
+
+
+    animation: square 4s cubic-bezier(0.37, -0.47, 1, -0.36) 1s 2 alternate forwards paused;
+}
+
+.element:hover {
+    animation-play-state: running;
+}
+
+
+@keyframes square {
+    0% {
+        width: 50px;
+    }
+
+    27% {
+        width: 100px;
+    }
+
+    50% {
+        width: 300px;
+    }
+
+    78% {
+        width: 500px;
+    }
+
+    100% {
+        width: 500px;
+        background-color: #525d9a;
+    }
+}
+
+
+/*Загуглить что может анимировать в CSS ключевые свойства*/
